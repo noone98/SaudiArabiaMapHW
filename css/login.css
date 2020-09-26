@@ -1,0 +1,23 @@
+
+/*Mainly relied on flex display when I need to move things around learned about it from this video 
+https://www.youtube.com/watch?v=FTlczfR82mQ
+*/
+
+.formcont{
+display: flex;
+flex-direction: column;
+height: 400px;
+justify-content: center;
+color: lightblue;
+border: 5px dotted black;
+align-items: center;
+flex-wrap: wrap;
+}
+.formcont div{
+height: 100px;
+width: 200px;
+color: black;
+
+margin: 3px;
+padding: 3px;
+}

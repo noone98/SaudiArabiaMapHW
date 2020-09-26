@@ -1,0 +1,44 @@
+/*Mainly relied on flex display when I needed to move things around learned about it from this video 
+https://www.youtube.com/watch?v=FTlczfR82mQ
+*/
+
+
+
+.container{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+	
+	background-color: lightgray;
+}
+/*to keep the image in it is location*/
+.div2{
+	margin-left: auto;
+}
+ul{
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+li{
+	
+	margin: 10px;
+	padding: 10px
+}
+.links{
+	background-color: lightgray;
+	height: 20px;
+
+}
+
+/*Made a footer container to make it the same as the header in all the pages*/
+.fcontainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+height: 50px;
+
+}

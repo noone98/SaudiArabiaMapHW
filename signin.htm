@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in or up to Some Of Saudi Arabia Locations</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<meta charset="UTF-8">
+
+</head>
+<body>
+	<div class="container">
+		<!-- To create this page I reviewd some of the slides but mainly relied on information I got from colt steele web developer bootcamp That I have watched some of it in the past -->
+	<div>
+	<button onclick="window.location.href='index.htm';"><img src="images/logo.jpg" alt="" ></button>
+ 	</div>
+ 	<div class="div2">
+ 		
+ 	<button onclick="window.location.href='signin.htm';" ><img src="images/userlink.jpg" alt=""></button>
+ 	</div>
+ 		
+ 		</div>
+ 	<!-- I used a button image to increase the clickable area for both of them  -->
+
+
+
+
+<div class="links">
+	<ul >
+		<li><a href="">MAPS</a></li>
+		<li><a href="">RESOURCES</a></li>
+		<li><a href="">EVENTS</a></li>
+		<li><a href="">PRODUCTS</a></li>
+	</ul>
+
+</div>
+ 	
+<br>
+<br>
+<br>
+<br>
+<form action="index.htm">
+
+	<!-- I have put the email and password as required to simulate what a login page should do
+
+	regardless of what you enter the submit will return you to the main page  -->
+<div class="formcont">
+	
+	<div>
+		<input type="Email" name="Email" id="em" placeholder="Enter your email" required>
+		<label for="em">Email</label>
+	</div>
+	<div>
+		<input required type="password" name="password" id="pass" placeholder="Enter your password">
+		<label for="pass">Password</label>
+
+	</div>
+	<div>
+		<label for="city">Favorite cites</label>
+		<input type="text" name="cites" id="city" placeholder="Enter your Favorite Cites">
+	</div>
+	<div >
+		<input onclick="window.location.href='index.htm';" style="float: left;" type="Submit" name="submit">
+		<input type="checkbox" name="remember" id="rem">
+		<label for="rem">Stay logged in?</label>
+	</div>
+</div>
+</form>
+<footer class="fcontainer">
+<img src="images/valid.jpg" alt="">
+</footer>
+</body>
+</html>
